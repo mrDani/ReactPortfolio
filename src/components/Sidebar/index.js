@@ -1,6 +1,4 @@
 import './index.scss'
-import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
@@ -9,7 +7,7 @@ import {
   faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { Link, NavLink } from 'react-router-dom'
+import {  NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
@@ -50,7 +48,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="#"
+            href="https://www.youtube.com/"
             rel="noreferrer"
             target="_blank"
           >
@@ -58,7 +56,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href="#" rel="noreferrer" target="_blank">
+          <a href="skype:live" rel="noreferrer" target="_blank">
             <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
           </a>
         </li>
